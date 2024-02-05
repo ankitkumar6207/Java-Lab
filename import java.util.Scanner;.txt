@@ -1,0 +1,17 @@
+import java.util.Scanner;
+Public class Calculator
+{
+Public static void main(String args[])
+{
+Scanner sc = new Scanner(System.in)
+int a ,b;
+System.out.println("Enter two  number:")
+a = sc.nextint();
+b = sc.nextln();
+System.out.println("Enter the operator which operation if want to do")
+char operator = SE.Next()charAt(0);
+Switch(operator)
+{
+case '+';
+System.out.println(a+"+"+b+"="+(a+b));
+break;
