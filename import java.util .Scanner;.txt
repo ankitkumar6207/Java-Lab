@@ -1,0 +1,50 @@
+import java.util .Scanner;
+public class marksheet
+{
+public static void main(string args[])
+{
+scanner sc = new scaner(System.in);
+System.out.println("Enter your roll number:");
+int roll = sc.nextInt();
+System.out.println("Enter your name:");
+String name = sc.Next();
+System.out.println("Enter your marks for every subject");
+double java = sc.nextDouble();
+double SE = sc.nextDouble();
+double CN = sc.nextDouble();
+double DAA = sc.nextDouble();
+double AI = sc.nextDouble();
+double total = JAVA+SE+CN+DAA+AI;
+double percentage = (total * 5)/100;
+System.out.println("your total percentage is "+percentage);
+Switch(percentage/10)
+{
+case 9 :
+System.out.println(" your grade is O");
+break;
+case 8 :
+System.out.println(" your grade is E");
+break;
+case 7 :
+System.out.println(" your grade is A");
+break;
+case 6 :
+System.out.println(" your grade is o");
+break;
+case 5 :
+System.out.println(" your grade is o");
+break;
+case 4 :
+System.out.println(" your grade is o")
+break;
+default:
+System.out.println("Fail")
+}
+
+
+
+
+
+
+
+
