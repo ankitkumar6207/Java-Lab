@@ -1,30 +1,32 @@
-import java.util.Scanner;
+import java.util.*;
 public class PrimeFactors{
-    public static void main(String ar[])
-    { 
-        Scanner sc = new Scanner(System.in);
-        int n= sc.nextInt();
-        if(n == 1 || n == 2)
+  public static void main(String args[]){
+    Scanner sc = new Scanner(System.in);
+    int num,i,fact,prime;
+    System.out.print("Enter the numbers : ");
+    num = sc.nextInt();
+    System.out.println("Prime factors");
+   
+    for(i=1;i<num;i++)
+    {
+      if(num%i==0)
+      {
+        fact = i;
+        int c = 0;
+        for(int j = 1;j<=fact;j++)
         {
-            System.out.println("1 , 2");
-        } 
-        for(int i = 2;i<=n/2;i++)
-        {
-            if(n % i ==0)
-            {
-                for(int j =2 ;j<i;j++)
-                {
-                    if(i % j ==0)
-                    {
-                        
-                    }
-                    else{
-                        System.out.println(i+" ");
-                    }
-                }
-            }
+           if(fact%j==0)
+           {
+              c++;
+           }
         }
-
+        if(c==2)
+        {
+           System.out.println(fact);
+        }
+      }
+      
     }
-
+    
+  }
 }
