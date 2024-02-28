@@ -1,0 +1,1 @@
+Write complete java program to define a class HockeyPlayer(pname,no_of_matches,total_goal_scored,goal_avg) create an array of n player objects.Calculate the goal average for each player using a static method goalAavg().Define a static method "sortPlayer" which sorts the array on the basis of goal average.Display the player details in sorted order.
