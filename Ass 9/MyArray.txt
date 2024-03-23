@@ -1,0 +1,12 @@
+class my array{
+privet int[]arr;
+public myarray(int[]arr){
+this.arr=arr;
+}
+public void displArray(){
+system.out.println("Arrayelements:");
+for(int num.:arr){
+system.out.println(num+"");
+}
+system.out.println();
+}
