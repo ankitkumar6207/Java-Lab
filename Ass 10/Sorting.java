@@ -5,7 +5,7 @@ class SortArray{
 
    SortArray(int size)
    {
-     arr = new int[size];
+     arr = new int[size]; //creating the array
    } 
 
    public void setArray(int n)
